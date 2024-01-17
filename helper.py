@@ -64,7 +64,7 @@ def _display_detected_frames(conf, model, st_frame, image, is_display_tracking=N
                    )
 
 
-'''def play_youtube_video(conf, model):
+def play_youtube_video(conf, model):
     """
     Plays a webcam stream. Detects Objects in real-time using the YOLOv8 object detection model.
 
@@ -106,7 +106,7 @@ def _display_detected_frames(conf, model, st_frame, image, is_display_tracking=N
             st.sidebar.error("Error loading video: " + str(e))
 
 
-def play_rtsp_stream(conf, model):
+'''def play_rtsp_stream(conf, model):
     """
     Plays an rtsp stream. Detects Objects in real-time using the YOLOv8 object detection model.
 
@@ -145,7 +145,7 @@ def play_rtsp_stream(conf, model):
                     break
         except Exception as e:
             vid_cap.release()
-            st.sidebar.error("Error loading RTSP stream: " + str(e))'''
+            st.sidebar.error("Error loading RTSP stream: " + str(e))'''''''''
 
 
 def play_webcam(conf, model):
